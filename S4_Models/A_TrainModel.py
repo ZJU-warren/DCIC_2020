@@ -24,6 +24,7 @@ def main():
 
     # load train data
     train_x, valid_x, train_y, valid_y = DataProxy.get_train_valid_xy(DLSet.merge_train_link)
+
     # train model
     print('#train_data = {}'.format(train_y.shape))
     model.fit(train_x, train_y)
