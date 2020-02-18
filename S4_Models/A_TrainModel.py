@@ -16,8 +16,8 @@ def get_clf(choice):
 
 
 def main():
-    model_choice = 'GBDT'
-    # model_choice = 'XGBoost'
+    # model_choice = 'GBDT'
+    model_choice = 'XGBoost'
 
     # state clf
     model = ModelProxy(clf=get_clf(model_choice))

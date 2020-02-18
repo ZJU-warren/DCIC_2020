@@ -2,7 +2,7 @@ import xgboost as xgb
 
 
 def generate_clf(learning_rate=0.05,
-                 n_estimators=100,
+                 n_estimators=400,
                  max_depth=7,
                  subsample=0.65,
                  verbose=1):
