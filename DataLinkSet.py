@@ -7,7 +7,8 @@ ResSet_link = DataSet_link + '/ResSet'
 
 """ ------------------------- RawSet --------------------------- """
 raw_train_link = RawSet_link + '/hy_round1_train_20200102'
-raw_test_link = RawSet_link + '/hy_round1_testA_20200102'
+# raw_test_link = RawSet_link + '/hy_round1_testA_20200102'
+raw_test_link = RawSet_link + '/hy_round1_testB_20200221'
 
 """ ------------------------- CleanSet --------------------------- """
 merge_train_link = CleanSet_link + '/merge_train'

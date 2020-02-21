@@ -20,6 +20,7 @@ def generate_dis(df):
     df_dis['dis_n1'] = df_dis['dis_x'] + df_dis['dis_y']
     df_dis['dis_n2'] = df_dis['dis_x'] ** 2 + df_dis['dis_y'] ** 2
     df_dis['dis_nwq'] = df_dis.apply(lambda x: max(x.dis_x, x.dis_y), axis=1)
+    df_dis['dis_ratio'] = df_dis['dis_x'] / (df_dis['dis_y'] + 0.000001)
     return df_dis
 
 

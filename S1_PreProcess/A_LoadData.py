@@ -50,11 +50,10 @@ def fill_by_most(data_link, store_link):
 
 def main():
     # merge(DLSet.raw_train_link, DLSet.merge_train_link)
-    # merge(DLSet.raw_test_link, DLSet.merge_test_link)
+    merge(DLSet.raw_test_link, DLSet.merge_test_link)
 
-    cal_label_distribute(DLSet.merge_train_link)
+    # cal_label_distribute(DLSet.merge_train_link)
     # fill_by_most(DLSet.merge_test_link, DLSet.result_link)
-
 
 
 if __name__ == '__main__':
